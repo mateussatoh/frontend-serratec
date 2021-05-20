@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-size: 62.5%;
+
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --primary: #3b9c50;
+  --secondary: #e13b38;
+  --foreground: #f8f8f2;
+  --hover-text: #92e496;
+}

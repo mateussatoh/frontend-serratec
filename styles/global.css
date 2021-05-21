@@ -6,6 +6,7 @@
   font-size: 62.5%;
 
   font-family: "Nunito", sans-serif;
+  color: var(--foreground);
 }
 
 :root {

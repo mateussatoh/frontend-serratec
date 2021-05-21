@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/images/bg-faixa.jpg);
+  background-image: url(../assets/images/backgrounds/bg-faixa.jpg);
   background-color: rgba(0, 0, 0, 0.3);
 
   background-blend-mode: color;

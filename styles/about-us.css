@@ -1,7 +1,7 @@
 .about-us {
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/images/site-bg.jpg);
+  background-image: url(../assets/images/backgrounds/site-bg.jpg);
   background-color: rgba(0, 0, 0, 0.1);
 
   background-blend-mode: color;

@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/images/cat_dog.jpg);
+  background-image: url(../assets/images/backgrounds/cat_dog.jpg);
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: color;
   background-repeat: no-repeat;

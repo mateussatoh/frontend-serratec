@@ -17,7 +17,12 @@
 
 :root {
   --primary: #3b9c50;
+  --primary-darker: #266a36;
+
   --secondary: #e13b38;
+  --secondary-text: #111;
+
   --foreground: #f8f8f2;
+
   --hover-text: #92e496;
 }

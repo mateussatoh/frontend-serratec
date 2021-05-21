@@ -8,6 +8,12 @@
   font-family: "Nunito", sans-serif;
   color: var(--foreground);
 }
+/* .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+} */
 
 :root {
   --primary: #3b9c50;

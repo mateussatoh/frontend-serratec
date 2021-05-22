@@ -8,7 +8,7 @@ window.onscroll = function () {
   } else {
     console.log("descendo");
 
-    document.getElementById("navbar").style.top = "-9rem";
+    document.getElementById("navbar").style.top = "-14rem";
   }
   prevScrollposition = currentScrollPosition;
 };

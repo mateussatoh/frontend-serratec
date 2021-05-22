@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
-    <link rel="stylesheet" href="./styles/inicio.css" />
+    <link rel="stylesheet" href="./styles/services.css" />
     <link rel="stylesheet" href="./styles/about-us.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
 
@@ -21,15 +21,24 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <div class="navbar" id="navbar">
         <img src="./assets/images/logo.png" alt="Logo GreenPet" />
         <ul>
-          <li>Início</li>
-          <li>Sobre nós</li>
-          <li>Contato</li>
+          <li>
+            <a href="#hero"> Início </a>
+          </li>
+          <li>
+            <a href="#services"> Serviços </a>
+          </li>
+          <li>
+            <a href="#about-us"> Sobre nós </a>
+          </li>
+          <li>
+            <a href="#contact"> Contato </a>
+          </li>
         </ul>
       </div>
-      <div class="hero">
+      <div class="hero" id="hero">
         <h1>Todo o cuidado para o seu melhor amigo.</h1>
         <h3>Você encontra tudo que precisa no mesmo lugar!</h3>
         <h3>As melhores marcas, com preços e promoções super especiais.</h3>
@@ -39,7 +48,7 @@
         </h3>
       </div>
 
-      <div class="inicio">
+      <div class="services" id="services">
         <h1>O que você encrontra no GreenPet.</h1>
         <p>Frete grátis, banho e tosa, clínica veterinária e muito mais!</p>
         <div class="cards-container">
@@ -83,7 +92,7 @@
           </div>
         </div>
       </div>
-      <div class="about-us">
+      <div class="about-us" id="about-us">
         <div class="about-us-container">
           <h1>Sobre nós</h1>
           <p>
@@ -138,7 +147,58 @@
           </div>
         </div>
       </div>
-      <div class="contact"></div>
+      <div class="contact" id="contact">
+        <h1>Contato</h1>
+        <div class="info-container">
+          <form class="form" autocomplete="on">
+            <label for="nome">Nome</label>
+            <input type="text" id="name" />
+            <label type="email" for="email">Email</label>
+            <input type="text" id="email" />
+            <label for="message">Sua mensagem</label>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <div class="buttons-container">
+              <input type="submit" id="submit" value="Enviar" />
+              <input type="reset" id="reset" value="Limpar" />
+            </div>
+          </form>
+
+          <div
+            style="
+              overflow: hidden;
+              max-width: 100%;
+              width: 700px;
+              height: 500px;
+            "
+          >
+            <div
+              id="mymap-canvas"
+              style="height: 100%; width: 100%; max-width: 100%"
+            >
+              <iframe
+                style="height: 100%; width: 100%; border: 0"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/search?q=GreenFruit+Teresópolis+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a
+              class="codefor-google-map"
+              href="https://www.embed-map.com"
+              id="get-data-forembedmap"
+              >https://www.embed-map.com</a
+            ><style>
+              #mymap-canvas img {
+                max-width: none !important;
+                background: none !important;
+                font-size: inherit;
+                font-weight: inherit;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <script src="./script/main.js"></script>
   </body>
 </html>

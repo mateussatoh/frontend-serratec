@@ -1,4 +1,4 @@
-.header {
+.navbar {
   position: fixed;
   top: 0;
   display: flex;
@@ -7,36 +7,37 @@
   height: 9rem;
   width: 100%;
 
+  transition: top 0.3s;
+
   background-color: var(--primary);
 }
 
-.header img {
+.navbar img {
   height: 9rem;
   margin-left: 3rem;
 }
 
-.header ul {
+.navbar ul {
   display: flex;
   margin-right: 5rem;
   list-style-type: none;
 }
-.header ul li {
+.navbar ul li a {
   text-align: center;
 
-  max-height: 9rem;
-  padding: 3rem 3rem;
+  padding: 2.8rem 3rem;
   margin-left: 1rem;
 
   color: var(--foreground);
 
   font-size: 2rem;
   font-weight: 600;
+  text-decoration: none;
 
   cursor: pointer;
-  transition: ease-in-out 250ms;
-  border-bottom: 4px solid var(--foreground);
+  transition: ease-in-out;
 }
 
-.header ul li:hover {
-  color: var(--hover-text);
+.navbar ul li a:hover {
+  border-bottom: 3px solid var(--foreground);
 }

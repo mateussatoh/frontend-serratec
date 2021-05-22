@@ -8,6 +8,10 @@
   font-family: "Nunito", sans-serif;
   color: var(--foreground);
 }
+
+html {
+  scroll-behavior: smooth;
+}
 /* .container {
   display: flex;
   flex-direction: column;

@@ -68,6 +68,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .contact h1 {
+    margin-left: 2rem;
+  }
   .map {
     display: none;
   }

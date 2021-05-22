@@ -12,3 +12,13 @@ window.onscroll = function () {
   }
   prevScrollposition = currentScrollPosition;
 };
+
+const mobile = document.querySelector(".mobile-menu");
+
+function closeMenu() {
+  mobile.style.cssText += "right: -100vw;";
+}
+
+function openMenu() {
+  mobile.style.cssText += "right: 0;";
+}

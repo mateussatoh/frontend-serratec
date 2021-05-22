@@ -41,3 +41,28 @@
 .navbar ul li a:hover {
   border-bottom: 3px solid var(--foreground);
 }
+
+@media screen and (min-width: 1400px) {
+  .navbar {
+    height: 13rem;
+  }
+  .navbar img {
+    height: 13rem;
+    margin-left: 5rem;
+  }
+  .navbar ul li a {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar {
+    height: 7rem;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar img {
+    display: none;
+  }
+}

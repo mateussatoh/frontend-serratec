@@ -62,3 +62,27 @@
 .card strong {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 850px) {
+  .services > h1 {
+    display: none;
+  }
+  .services > p {
+    display: none;
+  }
+  .cards-container {
+    flex-direction: column;
+  }
+  .card {
+    align-items: center;
+    width: 100%;
+  }
+  .card img {
+    margin: 3rem 1rem 2rem 1rem;
+    width: 90%;
+  }
+  .card p,
+  .card strong {
+    margin: 3rem 1rem 2rem 1rem;
+  }
+}

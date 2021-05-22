@@ -1,7 +1,7 @@
 var prevScrollposition = window.pageYOffset;
 window.onscroll = function () {
-  console.log(window);
   var currentScrollPosition = window.pageYOffset;
+  console.log(currentScrollPosition);
   if (prevScrollposition > currentScrollPosition) {
     console.log("subindo");
     document.getElementById("navbar").style.top = "0";

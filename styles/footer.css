@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--secondary-text);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 10vh;
+  background-size: cover;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25vw;
+}
+
+.footer div i {
+  font-size: 4rem;
+  transition: ease 0.3s;
+}
+
+.footer div i:hover {
+  color: var(--primary);
+}
+
+.footer div p,
+.footer div p a {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    justify-content: center;
+  }
+  #icons {
+    display: none;
+  }
+  .footer div p,
+  .footer div p a {
+    font-size: 1.3rem;
+    padding: 0 0.5rem;
+  }
+}
